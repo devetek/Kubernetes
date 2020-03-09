@@ -34,3 +34,4 @@ delete-all:
 	# https://kubernetes.io/id/docs/concepts/storage/persistent-volumes/
 	@kubectl delete pvc --all
 	@kubectl delete deployment --all
+	@kubectl delete ing --all
