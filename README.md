@@ -1,18 +1,23 @@
-# Kube Architecture
+## Dasar-Dasar Kubernetes
 
-## Basic of Kind
+Kubernetes adalah salah satu dari sekian banyak modern arsitektur yang sangat populer. Dengan keunggulan mengcover berbagai masalah dalam dunia arsitektur aplikasi. Fitur yang terdapat dalam kubernetes pun juga dapat ditambahkan sesuai dengan kebutuhan masing-masing arsitektur. Sifatnya yang fleksible dan memanusiakan manusia `arsitek` membuatnya menjadi primadona, dan pasti di masa depan akan menghapuskan semua arsitektur lama.
+
+### Kind
+
+Di dalam repository ini kita tidak akan membahas terlalu dalam tentang kubernetes. Kita hanya akan belajar dasar-dasar kubernetes untuk membuat aplikasi berjalan di kubernetes. Sesungguhnya ada begitu banyak `Kind` atau jenins feature yang dapat kita manfaatkan untuk membuat arsitektur aplikasi kita sesuai kebutuhan. Namun jenis-jenis berikut ini merupakan dasar yang cukup untuk membuat aplikasi kita berjalan di minimal lokal kubernetes.
+
 - Cluster
-- Credential
-- Namespace
 - Context
-- Ingress
+- Namespace
+- Deployment
 - Services
 - Pod
 
-Where is other kind ? this is just for basic make your service up.
+#### Deployment dan Services
 
+Di tutorial ini kita akan memastikan aplikasi kita berhasil berjalan di kubernetes, [selengkapnya](https://github.com/devetek/Kubernetes/blob/master/basic/README.md).
 
-## References
+### References
 
 - [Configure Multiple Cluster](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
 - [Kube Engine Hello App](https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app)
@@ -27,4 +32,4 @@ Where is other kind ? this is just for basic make your service up.
 - [Ingress Kube Bare Metal](https://medium.com/swlh/using-nginx-ingress-controllers-on-kubernetes-on-centos-7-99f6df969b45)
 - [After Follow Ingress Kube Bare Metal](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-manifests/)
 - [Bare Metal Strategy](https://kubernetes.github.io/ingress-nginx/deploy/baremetal/#over-a-nodeport-service)
-- [Create Image Inside Kube](git@github.com:devetek/Kubernetes.git)
+- [Create Image Inside Kube](https://github.com/GoogleContainerTools/kaniko)

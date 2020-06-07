@@ -1,7 +1,7 @@
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority: /Users/nedya/projects/devetek/kubernetes/fake-ca-file
+    certificate-authority: /Users/nakama/project/Kubernetes/fake-ca-file
     server: https://1.2.3.4
   name: development
 - cluster:
@@ -30,8 +30,8 @@ preferences: {}
 users:
 - name: developer
   user:
-    client-certificate: /Users/nedya/projects/devetek/kubernetes/fake-cert-file
-    client-key: /Users/nedya/projects/devetek/kubernetes/fake-key-seefile
+    client-certificate: /Users/nakama/project/Kubernetes/fake-cert-file
+    client-key: /Users/nakama/project/Kubernetes/fake-key-seefile
 - name: experimenter
   user:
     password: password
