@@ -1,3 +1,7 @@
+DOCKER_USER := prakasa1904
+
+include basic/Makefile
+
 # ================ INFO ================
 # Setter Function
 # Author: Prakasa <prakasa@devetek.com>
